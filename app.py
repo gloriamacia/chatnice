@@ -1,3 +1,5 @@
+# https://chatnice-e080a5e359b1.herokuapp.com/
+# https://chatnice.uk/
 import streamlit as st
 import os
 
