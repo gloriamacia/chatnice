@@ -12,12 +12,16 @@ def main():
     # Left column: Title and text
     with col1:
         st.title("Ask ChatNICE")
-        text = """An artificial intelligence chatbot trained on guidances from NICE. It is based on a large language model like gpt-4. 
-        ChatNICE is a proof of concept for research purposes only. This webite is not affiliated with nice.org.uk
-        The user assumes full liability for any other use. This preview is trained on the 'Caesarean birth' guidance (NG192). 
-        Contact Gloria Macia at g.macia-munoz@lse.ac.uk for further inquiries"""
+        st.markdown("""An artificial intelligence chatbot trained on guidances from NICE""")
+        text = """This preview is trained on the 'Caesarean birth' guidance (NG192). 
+        It is based on a large language model like gpt-4.
+        ChatNICE is a proof of concept for research purposes only. 
+        This webite is not affiliated with nice.org.uk.
+        The user assumes full liability for any other use.
+        """
         # You can add more text or other elements as needed.
         st.markdown(text)
+        st.markdown("""Contact Gloria Macia at g.macia-munoz@lse.ac.uk for further inquiries.""")
 
     # Right column: Image
     with col2:
